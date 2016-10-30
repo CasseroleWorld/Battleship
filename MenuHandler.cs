@@ -4,11 +4,14 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Battleship
+namespace Battleship_Rebuild
 {
-    public class MenuHandler
+    class MenuHandler
     {
-        public void DrawMain() {
+        public void DrawMain()
+        {
+
+
             //Draw Main
             Console.SetWindowSize(95, 50);
             Console.WriteLine("\n\n\n");
@@ -82,3 +85,4 @@ namespace Battleship
         }
     }
 }
+

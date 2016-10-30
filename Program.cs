@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Battleship
+namespace Battleship_Rebuild
 {
     class Program
     {
@@ -17,8 +17,7 @@ namespace Battleship
             //If A: Battleship.
             GameSession game = new GameSession();
             game.DrawGameBoard();
-            game.SetUpGame();
-
+            //game.SetUpShips();
             //If B: Exit.
             Console.ReadKey();
         }
